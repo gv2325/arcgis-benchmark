@@ -1,0 +1,137 @@
+2024-09-11 14:26:27,482 - URL: https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer
+2024-09-11 14:26:27,483 - Elapsed Time: 0.15673041343688965 seconds
+2024-09-11 14:26:27,483 - Response Status Code: 200
+2024-09-11 14:26:55,136 - URL: https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer
+2024-09-11 14:26:55,136 - Elapsed Time: 0.1447281837463379 seconds
+2024-09-11 14:26:55,136 - Response Status Code: 200
+2024-09-11 14:27:24,068 - URL: https://gis.earthdata.nasa.gov/maphost/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer
+2024-09-11 14:27:24,068 - Elapsed Time: 0.3138697147369385 seconds
+2024-09-11 14:27:24,068 - Response Status Code: 200
+2024-09-11 14:40:27,682 - Method: GET
+2024-09-11 14:40:27,682 - URL: https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer
+2024-09-11 14:40:27,682 - Elapsed Time: 0.14041590690612793 seconds
+2024-09-11 14:40:27,682 - Status Code: 200
+2024-09-11 14:40:27,682 - Request Headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}
+2024-09-11 14:40:27,683 - Response Headers: {'Cache-Control': 'must-revalidate,max-age=0,public', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=utf-8', 'Content-Encoding': 'gzip', 'Vary': 'Origin', 'Server': 'Microsoft-IIS/10.0', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': 'AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Wed, 11 Sep 2024 14:41:27 GMT; Path=/image/rest; Secure; HttpOnly', 'X-Powered-By': 'ASP.NET', 'Date': 'Wed, 11 Sep 2024 14:40:27 GMT'}
+2024-09-11 14:40:27,683 - Response Content: <html lang="en">
+<head>
+<title>heatmax_median_multivariate_annual_cw (ImageServer)</title>
+<link href="/image/rest/static/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">
+ArcGIS REST Services Directory
+</td>
+<td align="right">
+<a href="https://civsci.esrigc.com/image/login?returnUrl=https://civsci.esrigc.com/image/rest/services">Login</a>
+</td>
+</tr>
+</table>
+<table width="100%" class="navTable">
+<tr v
+2024-09-11 14:40:27,903 - Method: POST
+2024-09-11 14:40:27,903 - URL: https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer
+2024-09-11 14:40:27,903 - Elapsed Time: 0.21994423866271973 seconds
+2024-09-11 14:40:27,903 - Status Code: 200
+2024-09-11 14:40:27,903 - Request Headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'}
+2024-09-11 14:40:27,903 - Response Headers: {'Cache-Control': 'must-revalidate,max-age=0,public', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=utf-8', 'Content-Encoding': 'gzip', 'Vary': 'Origin', 'Server': 'Microsoft-IIS/10.0', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': 'AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Wed, 11 Sep 2024 14:41:27 GMT; Path=/image/rest; Secure; HttpOnly', 'X-Powered-By': 'ASP.NET', 'Date': 'Wed, 11 Sep 2024 14:40:27 GMT'}
+2024-09-11 14:40:27,903 - Response Content: <html lang="en">
+<head>
+<title>heatmax_median_multivariate_annual_cw (ImageServer)</title>
+<link href="/image/rest/static/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">
+ArcGIS REST Services Directory
+</td>
+<td align="right">
+<a href="https://civsci.esrigc.com/image/login?returnUrl=https://civsci.esrigc.com/image/rest/services">Login</a>
+</td>
+</tr>
+</table>
+<table width="100%" class="navTable">
+<tr v
+2024-09-11 14:41:15,198 - Method: GET
+2024-09-11 14:41:15,199 - URL: https://gis.earthdata.nasa.gov/maphost/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer
+2024-09-11 14:41:15,199 - Elapsed Time: 1.280320167541504 seconds
+2024-09-11 14:41:15,199 - Status Code: 200
+2024-09-11 14:41:15,199 - Request Headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}
+2024-09-11 14:41:15,199 - Response Headers: {'Content-Type': 'text/html;charset=utf-8', 'Content-Length': '2062', 'Connection': 'keep-alive', 'Date': 'Wed, 11 Sep 2024 14:41:15 GMT', 'Server': '', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Cache-Control': 'max-age=0,must-revalidate', 'Content-Encoding': 'gzip', 'Set-Cookie': 'AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Wed, 11 Sep 2024 14:42:15 GMT; Path=/maphost/rest; Secure; HttpOnly', 'Vary': 'Origin', 'X-XSS-Protection': '1; mode=block', 'X-Request-Id': '8Q6plZJAL4VADORgnVdRwrCnrVAtM5aCtxBKzgOE7Au4ShFhAbRmaw==', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 a3cc6ada872dd8799739f0e62dddda7c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'IAD66-C2', 'X-Amz-Cf-Id': '8Q6plZJAL4VADORgnVdRwrCnrVAtM5aCtxBKzgOE7Au4ShFhAbRmaw=='}
+2024-09-11 14:41:15,199 - Response Content: <html lang="en">
+<head>
+<title>EIC/heatmax_median_multivariate_annual (ImageServer)</title>
+<link href="/maphost/rest/static/main.css" rel="stylesheet" type="text/css"/>
+<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC" id="_fed_an_ua_tag"></script>
+</head>
+<body>
+<table width="100%" class="userTable">
+<t
+2024-09-11 14:41:15,801 - Method: POST
+2024-09-11 14:41:15,802 - URL: https://gis.earthdata.nasa.gov/maphost/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer
+2024-09-11 14:41:15,802 - Elapsed Time: 0.600898265838623 seconds
+2024-09-11 14:41:15,802 - Status Code: 200
+2024-09-11 14:41:15,802 - Request Headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'}
+2024-09-11 14:41:15,802 - Response Headers: {'Content-Type': 'text/html;charset=utf-8', 'Content-Length': '2062', 'Connection': 'keep-alive', 'Date': 'Wed, 11 Sep 2024 14:41:15 GMT', 'Server': '', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Cache-Control': 'max-age=0,must-revalidate', 'Content-Encoding': 'gzip', 'Set-Cookie': 'AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Wed, 11 Sep 2024 14:42:15 GMT; Path=/maphost/rest; Secure; HttpOnly', 'Vary': 'Origin', 'X-XSS-Protection': '1; mode=block', 'X-Request-Id': 'ZYHN8CxxNEQZPsn6IJa1QSRPNs8AJoWmoNJf6cueVH6HM-OISKxmjg==', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 de8f46f8f922c244bbc7d8b62cc964e8.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'IAD66-C2', 'X-Amz-Cf-Id': 'ZYHN8CxxNEQZPsn6IJa1QSRPNs8AJoWmoNJf6cueVH6HM-OISKxmjg=='}
+2024-09-11 14:41:15,802 - Response Content: <html lang="en">
+<head>
+<title>EIC/heatmax_median_multivariate_annual (ImageServer)</title>
+<link href="/maphost/rest/static/main.css" rel="stylesheet" type="text/css"/>
+<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC" id="_fed_an_ua_tag"></script>
+</head>
+<body>
+<table width="100%" class="userTable">
+<t
+2024-09-11 14:43:54,675 - Method: GET
+2024-09-11 14:43:54,675 - URL: https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer
+2024-09-11 14:43:54,675 - Elapsed Time: 0.11243224143981934 seconds
+2024-09-11 14:43:54,675 - Status Code: 200
+2024-09-11 14:43:54,675 - Request Headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}
+2024-09-11 14:43:54,675 - Response Headers: {'Cache-Control': 'must-revalidate,max-age=0,public', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=utf-8', 'Content-Encoding': 'gzip', 'Vary': 'Origin', 'Server': 'Microsoft-IIS/10.0', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': 'AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Wed, 11 Sep 2024 14:44:54 GMT; Path=/image/rest; Secure; HttpOnly', 'X-Powered-By': 'ASP.NET', 'Date': 'Wed, 11 Sep 2024 14:43:54 GMT'}
+2024-09-11 14:43:54,676 - Response Content: <html lang="en">
+<head>
+<title>heatmax_median_multivariate_annual_cw (ImageServer)</title>
+<link href="/image/rest/static/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">
+ArcGIS REST Services Directory
+</td>
+<td align="right">
+<a href="https://civsci.esrigc.com/image/login?returnUrl=https://civsci.esrigc.com/image/rest/services">Login</a>
+</td>
+</tr>
+</table>
+<table width="100%" class="navTable">
+<tr v
+2024-09-11 14:43:54,842 - Method: POST
+2024-09-11 14:43:54,842 - URL: https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer
+2024-09-11 14:43:54,842 - Elapsed Time: 0.1649928092956543 seconds
+2024-09-11 14:43:54,842 - Status Code: 200
+2024-09-11 14:43:54,843 - Request Headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'}
+2024-09-11 14:43:54,843 - Response Headers: {'Cache-Control': 'must-revalidate,max-age=0,public', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=utf-8', 'Content-Encoding': 'gzip', 'Vary': 'Origin', 'Server': 'Microsoft-IIS/10.0', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': 'AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Wed, 11 Sep 2024 14:44:54 GMT; Path=/image/rest; Secure; HttpOnly', 'X-Powered-By': 'ASP.NET', 'Date': 'Wed, 11 Sep 2024 14:43:54 GMT'}
+2024-09-11 14:43:54,843 - Response Content: <html lang="en">
+<head>
+<title>heatmax_median_multivariate_annual_cw (ImageServer)</title>
+<link href="/image/rest/static/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">
+ArcGIS REST Services Directory
+</td>
+<td align="right">
+<a href="https://civsci.esrigc.com/image/login?returnUrl=https://civsci.esrigc.com/image/rest/services">Login</a>
+</td>
+</tr>
+</table>
+<table width="100%" class="navTable">
+<tr v
