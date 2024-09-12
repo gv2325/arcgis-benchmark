@@ -1,5 +1,7 @@
 from locust import HttpUser, task, between
 import logging
+import requests
+import json
 
 # Set up logging
 logging.basicConfig(filename='locust_log.log', level=logging.INFO, format='%(asctime)s - %(message)s')
@@ -9,15 +11,21 @@ class ImageryLayerUser(HttpUser):
 
     @task
     def get_imagery_layer(self):
-        url = "https://gis.earthdata.nasa.gov/maps/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer"
+        url = "https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer/getSamples"
         params = {
             'geometry': '{"spatialReference":{"wkid":4326},"x":-103.3665440972982,"y":0.995054807838955}',
             'geometryType': '"point"',
-            'mosaicRule': '{"ascending":True,"multidimensionalDefinition":[{"variableName":"heatmax_ssp126","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False},{"variableName":"heatmax_ssp245","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False}]}',
+            'mosaicRule': '{"ascending":True,"multidimensionalDefinition":[{"variableName":"heatmax_ssp126","dimensionName":"StdTime","values":[[-628560000000,4133894400000]],"isSlice":False},{"variableName":"heatmax_ssp245","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False}]}',
             'returnFirstValueOnly': 'False',
             'interpolation': 'RSP_NearestNeighbor',
             'f': 'json'
         }
+        response = self.client.get(url, params=params)
+        logging.info(f"GET Request URL: {response.url}")
+        logging.info(f"Elapsed Time: {response.elapsed.total_seconds()} seconds")
+        logging.info(f"Status Code: {response.status_code}")
+        logging.info(f"Response: {response.json()}")
+
         with self.client.get(url, params=params, catch_response=True) as response:
             elapsed_time = response.elapsed.total_seconds()
             logging.info(f"GET Request URL: {response.url}")
