@@ -9,39 +9,17 @@ class ImageryLayerUser(HttpUser):
 
     @task
     def get_imagery_layer(self):
-        url = "https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer"
+        url = "https://gis.earthdata.nasa.gov/maphost/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer"
         params = {
-            'geometry': 'GEOMETRY',
-            'geometryType': 'GEOMETRY_TYPE',
-            'mosaicRule': 'MOSAIC_RULE',
-            'returnFirstValueOnly': 'RETURN_FIRST_VALUE',
-            'interpolation': 'INTERPOLATION'
+            'geometry': '{"spatialReference":{"wkid":4326},"x":-103.3665440972982,"y":0.995054807838955}',
+            'geometryType': '"point"',
+            'mosaicRule': '{"ascending":True,"multidimensionalDefinition":[{"variableName":"heatmax_ssp126","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False},{"variableName":"heatmax_ssp245","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False}]}',
+            'returnFirstValueOnly': 'False',
+            'interpolation': 'RSP_NearestNeighbor'
         }
         with self.client.get(url, params=params, catch_response=True) as response:
             elapsed_time = response.elapsed.total_seconds()
             logging.info(f"GET Request URL: {response.url}")
-            logging.info(f"Elapsed Time: {elapsed_time} seconds")
-            logging.info(f"Status Code: {response.status_code}")
-            logging.info(f"Response Headers: {response.headers}")
-            logging.info(f"Response Content: {response.text[:500]}")  # Log first 500 characters of the response content
-            if response.status_code == 200:
-                response.success()
-            else:
-                response.failure(f"Failed with status code {response.status_code}")
-
-    @task
-    def post_imagery_layer(self):
-        url = "https://civsci.esrigc.com/image/rest/services/heatmax_median_multivariate_annual_cw/ImageServer"
-        data = {
-            'geometry': 'GEOMETRY',
-            'geometryType': 'GEOMETRY_TYPE',
-            'mosaicRule': 'MOSAIC_RULE',
-            'returnFirstValueOnly': 'RETURN_FIRST_VALUE',
-            'interpolation': 'INTERPOLATION'
-        }
-        with self.client.post(url, data=data, catch_response=True) as response:
-            elapsed_time = response.elapsed.total_seconds()
-            logging.info(f"POST Request URL: {response.url}")
             logging.info(f"Elapsed Time: {elapsed_time} seconds")
             logging.info(f"Status Code: {response.status_code}")
             logging.info(f"Response Headers: {response.headers}")
