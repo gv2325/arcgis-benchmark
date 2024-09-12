@@ -9,13 +9,14 @@ class ImageryLayerUser(HttpUser):
 
     @task
     def get_imagery_layer(self):
-        url = "https://gis.earthdata.nasa.gov/maphost/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer"
+        url = "https://gis.earthdata.nasa.gov/maps/rest/services/EIC/heatmax_median_multivariate_annual/ImageServer"
         params = {
             'geometry': '{"spatialReference":{"wkid":4326},"x":-103.3665440972982,"y":0.995054807838955}',
             'geometryType': '"point"',
             'mosaicRule': '{"ascending":True,"multidimensionalDefinition":[{"variableName":"heatmax_ssp126","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False},{"variableName":"heatmax_ssp245","dimensionName":"StdTime","values":[[-628560000000,249868800000]],"isSlice":False}]}',
             'returnFirstValueOnly': 'False',
-            'interpolation': 'RSP_NearestNeighbor'
+            'interpolation': 'RSP_NearestNeighbor',
+            'f': 'json'
         }
         with self.client.get(url, params=params, catch_response=True) as response:
             elapsed_time = response.elapsed.total_seconds()
